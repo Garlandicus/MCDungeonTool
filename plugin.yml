@@ -1,0 +1,51 @@
+name: DungeonTools
+main: com.github.garlandicus.dungeon.DungeonTools
+version: 1.0
+author: Garlandicus
+website: https://github.com/Garlandicus
+commands:
+  lootOn:
+    description: Enables loot collection
+    usage: '/<command>'
+    permission: DungeonTools.basic
+    permission-message: You don't have <permission>
+  lootOff:
+    description: Disables loot collection
+    usage: '/<command>'
+    permission: DungeonTools.basic
+    permission-message: You don't have <permission>
+  newTeam:
+    description: Creates a new team
+    usage: '/<command> <teamName> [password]'
+    permission: DungeonTools.leader
+    permission-message: You don't have <permission>
+  joinTeam:
+    description: Joins an existing team
+    usage: '/<command> <teamName> [password]'
+    permission: DungeonTools.basic
+    permission-message: You don't have <permission>
+  leaveTeam:
+  	description: Leaves the player's existing team
+  	usage: '/<command>'
+  	permission: DungeonTools.basic
+  	permission-message: You don't have <permission>
+  kickPlayer:
+  	description: Kicks the specified player from the team
+  	usage: '/<command> <playername>'
+  	permission: DungeonTools.leader
+  	permission-message: You don't have <permission>
+  disband:
+  	description: Disbands the current team, distributing all remaining loot
+  	usage: '/<command>'
+  	permission: DungeonTools.leader
+  	permission-message: You don't have <permission>
+  distribute:
+    description: Distributes the accumulated loot to the various players
+    usage: '/<command>'
+    permission: DungeonTools.leader
+    permission-message: You don't have <permission>
+  lootInventory:
+  	description: Opens an inventory window containing the items collected so far
+  	usage: '/<command> <pagenumber> 
+  	permission: DungeonTools.basic
+  	permission-message: You don't have <permission>
