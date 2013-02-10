@@ -7,9 +7,11 @@ import org.bukkit.command.CommandSender;
 import com.github.garlandicus.dungeon.DungeonTools;
 
 public class CommandJoinTeam implements CommandExecutor {
+	
+	DungeonTools parent;
 
 	public CommandJoinTeam(DungeonTools dungeonTools) {
-		// TODO Auto-generated constructor stub
+		parent = dungeonTools;
 	}
 
 	@Override

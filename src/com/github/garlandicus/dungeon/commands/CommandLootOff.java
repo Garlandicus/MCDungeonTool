@@ -7,9 +7,11 @@ import org.bukkit.command.CommandSender;
 import com.github.garlandicus.dungeon.DungeonTools;
 
 public class CommandLootOff implements CommandExecutor {
+	
+	DungeonTools parent;
 
 	public CommandLootOff(DungeonTools dungeonTools) {
-		// TODO Auto-generated constructor stub
+		parent = dungeonTools;
 	}
 
 	@Override

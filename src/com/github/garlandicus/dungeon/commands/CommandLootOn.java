@@ -8,8 +8,10 @@ import com.github.garlandicus.dungeon.DungeonTools;
 
 public class CommandLootOn implements CommandExecutor {
 
+	DungeonTools parent;
+	
 	public CommandLootOn(DungeonTools dungeonTools) {
-		// TODO Auto-generated constructor stub
+		parent = dungeonTools;
 	}
 
 	@Override

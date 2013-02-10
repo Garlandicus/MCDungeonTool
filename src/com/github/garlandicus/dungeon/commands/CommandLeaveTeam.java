@@ -8,8 +8,10 @@ import com.github.garlandicus.dungeon.DungeonTools;
 
 public class CommandLeaveTeam implements CommandExecutor {
 
+	DungeonTools parent;
+	
 	public CommandLeaveTeam(DungeonTools dungeonTools) {
-		// TODO Auto-generated constructor stub
+		parent = dungeonTools;
 	}
 
 	@Override

@@ -8,8 +8,10 @@ import com.github.garlandicus.dungeon.DungeonTools;
 
 public class CommandDisband implements CommandExecutor {
 
+	DungeonTools parent;
+	
 	public CommandDisband(DungeonTools dungeonTools) {
-		// TODO Auto-generated constructor stub
+		parent = dungeonTools;
 	}
 
 	@Override
